@@ -30,11 +30,11 @@ export default function HomePage() {
         {/* Logo centerpiece — big banner artwork, tagline beneath it */}
         <div className="text-center pt-12 pb-8 px-4">
           <Image
-            src="/banner.png"
+            src="/banner-soft.png"
             alt="The Anime Vault"
             width={640}
             height={360}
-            className="mx-auto rounded-lg"
+            className="mx-auto"
             priority
           />
           <p
